@@ -1,0 +1,7 @@
+{
+  "name": "@scf/wc-sales-style",
+  "version": "1.0.3",
+  "description": "Extracted style file from @scf/wc-sales",
+  "author": "yuhongda",
+  "license": "ISC"
+}

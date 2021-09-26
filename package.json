@@ -1,0 +1,11 @@
+{
+  "name": "wc-router-demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.2"
+  }
+}

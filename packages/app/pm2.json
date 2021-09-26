@@ -1,0 +1,16 @@
+{
+  "name": "c2m-open-graphql",
+  "script": "index.js", 
+  "cwd": "./graphql",
+  "watch": [
+    "graphql"
+  ],
+  "ignore_watch" : [
+    "node_modules", 
+    "logs",
+    "public"
+  ],
+  "watch_options": {
+    "followSymlinks": false
+  }
+}

@@ -1,0 +1,123 @@
+.siteHeaderWrap {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 100%;
+}
+.siteHeaderWrap .siteHeader {
+  font-size: 16px;
+  background: #fff;
+  height: 48px;
+  width: 100%;
+  z-index: 103;
+  transition: all 0.5s ease-out;
+  background: linear-gradient(90deg, #5781d1 0%, #4796e7 100%);
+}
+.siteHeaderWrap .siteHeader h1 {
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 28px;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-left: 80px;
+  background-position: 24px center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/logo.png);
+  background-image: image-set(url(../../assets/images/logo.png) 1x, url(../../assets/images/logo@2x.png) 2x);
+  background-image: -webkit-image-set(url(../../assets/images/logo.png) 1x, url(../../assets/images/logo@2x.png) 2x);
+  background-image: -moz-image-set(url(../../assets/images/logo.png) 1x, url(../../assets/images/logo@2x.png) 2x);
+  background-image: -o-image-set(url(../../assets/images/logo.png) 1x, url(../../assets/images/logo@2x.png) 2x);
+  background-image: -ms-image-set(url(../../assets/images/logo.png) 1x, url(../../assets/images/logo@2x.png) 2x);
+  background-size: auto 32px;
+}
+.siteHeaderWrap .siteHeader .loginWrap {
+  float: right;
+  padding: 0 18px 0 0;
+  line-height: 48px;
+  font-size: 12px;
+}
+.siteHeaderWrap .siteHeader .loginWrap a.link {
+  color: #fff;
+}
+.siteHeaderWrap .siteHeader .loginWrap a.link.cur {
+  color: #35a5a6;
+}
+.siteHeaderWrap .siteHeader .loginWrap a.link :global .anticon {
+  margin-right: 9px;
+}
+.siteHeaderWrap .siteHeader .loginWrap span {
+  color: #ebebeb;
+  font-size: 12px;
+}
+.siteHeaderWrap .siteHeader .loginWrap .userInfo, .siteHeaderWrap .siteHeader .loginWrap .userInfo a {
+  display: flex;
+  align-items: center;
+}
+.siteHeaderWrap .siteHeader .loginWrap .userInfo span {
+  color: #fff;
+}
+.siteHeaderWrap .siteHeader .loginWrap .userInfo img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.siteHeaderWrap .siteHeader .loginWrap .avatar {
+  margin-right: 42px;
+}
+.siteHeaderWrap .siteHeader :global .ant-menu {
+  line-height: 26px;
+  float: left;
+  border: 0;
+  background: transparent;
+  padding: 10px 0 0 280px;
+}
+.siteHeaderWrap .siteHeader :global .ant-menu-horizontal > .ant-menu-item > a {
+  color: #fff;
+}
+.siteHeaderWrap .siteHeader :global .ant-menu-item-selected {
+  color: #fff;
+  border-bottom: 2px solid #63bdf5;
+}
+.siteHeaderWrap .siteHeader :global .ant-menu-item-active {
+  border-bottom: 2px solid #63bdf5;
+}
+.siteHeaderWrap .siteHeader :global .ant-menu-item {
+  line-height: 26px;
+  padding: 0;
+  margin: 0 20px;
+}
+
+.navItemMenu .menuDivider {
+  position: relative;
+}
+.navItemMenu .menuDivider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-top: 1px solid #eee;
+  width: 84%;
+  height: 0;
+  left: 50%;
+  margin-left: -42%;
+}
+.navItemMenu::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  top: -5px;
+  left: 12px;
+}
+.navItemMenu :global .ant-dropdown-menu-item {
+  padding: 8px 12px;
+}

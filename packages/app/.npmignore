@@ -1,0 +1,9 @@
+/node_modules
+/dist/
+.DS_Store
+.idea
+/npm-debug.log
+yarn.lock
+yarn-error.log
+package-lock.json
+*.vim

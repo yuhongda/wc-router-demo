@@ -1,0 +1,10 @@
+{
+  "name": "@scf/wc-sales",
+  "version": "1.0.2",
+  "description": "大促趋势词",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "author": "yuhongda1",
+  "license": "ISC"
+}

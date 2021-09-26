@@ -1,0 +1,82 @@
+<with {{ htmlWebpackPlugin.options }}>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>C2M趋势洞察(内部版)</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- <base href="/" /> -->
+        <!--<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,initial-scale=1.0" />-->
+        <!-- <script>
+        if (window.location.protocol == 'https:') {
+          document.write('<link rel="stylesheet" href="//unpkg.com/antd@4.3.1/dist/antd.min.css" \/>');
+        } else {
+          document.write('<link rel="stylesheet" href="http://unpkg.jd.com/antd@4.3.1/dist/antd.min.css" \/>');
+        }
+        </script> -->
+        <link rel="stylesheet" href="//static.360buyimg.com/npd-platform-static/antd-4.4.2.min.css" />
+    </head>
+
+    <body>
+        <div id="app"></div>
+        <script src="//static.360buyimg.com/npd-platform-static/echarts.min.js"></script>
+        <script src="//static.360buyimg.com/npd-platform-static/lodash.min.js"></script>
+        <script src="//static.360buyimg.com/npd-platform-static/react.production.min.js"></script>
+        <script src="//static.360buyimg.com/npd-platform-static/react-dom.production.min.js"></script>
+        <script src="//static.360buyimg.com/npd-platform-static/moment.min.js"></script>
+        <script src="//static.360buyimg.com/npd-platform-static/zh-cn.js"></script>
+        <script src="//static.360buyimg.com/npd-platform-static/antd-4.4.2.min.js"></script>
+
+        <script>
+            // if(document.location.host.indexOf('localhost') === -1) {
+            //   // document.write('<script src="https://browser.sentry-cdn.com/5.1.0/bundle.min.js" crossorigin="anonymous"><\/script>');
+            // }
+
+            // if (window.location.protocol == 'https:') {
+            //   document.write('<script src="//unpkg.com/echarts@4.7.0/dist/echarts.min.js"><\/script>');
+            //   document.write('<script src="//unpkg.com/lodash@4.17.15"><\/script>');
+            //   document.write('<script src="//unpkg.com/react@16.13.1/umd/react.production.min.js"><\/script>');
+            //   document.write('<script src="//unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js"><\/script>');
+            //   document.write('<script src="//unpkg.com/moment@2.27.0"><\/script>');
+            //   document.write('<script src="//unpkg.com/moment@2.27.0/locale/zh-cn.js"><\/script>');
+            //   document.write('<script src="//unpkg.com/antd@4.3.1/dist/antd.min.js"><\/script>');
+            // } else {
+            //   document.write('<script src="http://unpkg.jd.com/echarts@4.7.0/dist/echarts.min.js"><\/script>');
+            //   document.write('<script src="http://unpkg.jd.com/lodash@4.17.15"><\/script>');
+            //   document.write('<script src="http://unpkg.jd.com/react@16.13.1/umd/react.production.min.js"><\/script>');
+            //   document.write('<script src="http://unpkg.jd.com/react-dom@16.13.1/umd/react-dom.production.min.js"><\/script>');
+            //   document.write('<script src="http://unpkg.jd.com/moment@2.27.0"><\/script>');
+            //   document.write('<script src="http://unpkg.jd.com/moment@2.27.0/locale/zh-cn.js"><\/script>');
+            //   document.write('<script src="http://unpkg.jd.com/antd@4.3.1/dist/antd.min.js"><\/script>');
+            // }
+        </script>
+    </body>
+
+    </html>
+    <!-- 子午线性能埋点 -->
+    <!-- <script src="//wl.jd.com/boomerang.min.js"></script>
+    <script>
+        var enableBoomer = document.location.host !== 'localhost';
+        if (document.location.host == 'c2m-open-erp.jd.com') {
+            BOOMR.init({
+                siteid: 'JA2020_1122474',
+                autorun: false,
+                log: null,
+                History: {
+                    auto: enableBoomer,
+                },
+                Errors: {
+                    monitorGlobal: enableBoomer,
+                    monitorNetwork: enableBoomer,
+                    monitorConsole: enableBoomer,
+                    monitorEvents: enableBoomer,
+                    monitorTimeout: enableBoomer,
+                },
+            });
+        }
+    </script> -->
+</with>

@@ -1,0 +1,16 @@
+{
+  "name": "vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@scf/vite-react-webcomponents": "^0.3.0",
+    "vue": "^3.0.2"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.8",
+    "@vue/compiler-sfc": "^3.0.2"
+  }
+}
